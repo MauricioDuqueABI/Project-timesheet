@@ -1,0 +1,56 @@
+{
+  "github": {
+    "project_id": "PVT_kwDODHMhOM4Bb_Tm",
+    "org": "Abi-ltd",
+    "project_number": 19,
+    "fields": {
+      "status": {
+        "id": "PVTSSF_lADODHMhOM4Bb_TmzhWrcPs",
+        "type": "SINGLE_SELECT",
+        "options": {
+          "Backlog":     "f75ad846",
+          "Ready":       "61e4505c",
+          "In progress": "47fc9ee4",
+          "In review":   "df73e18b",
+          "Done":        "98236657"
+        }
+      },
+      "size": {
+        "id": "PVTSSF_lADODHMhOM4Bb_TmzhWrcVk",
+        "type": "SINGLE_SELECT",
+        "options": {
+          "XS": "6c6483d2",
+          "S":  "f784b110",
+          "M":  "7515a9f1",
+          "L":  "817d0097",
+          "XL": "db339eb2"
+        }
+      },
+      "estimate":    { "id": "PVTF_lADODHMhOM4Bb_TmzhWrcVo", "type": "NUMBER" },
+      "start_date":  { "id": "PVTF_lADODHMhOM4Bb_TmzhWrcVs", "type": "DATE" },
+      "target_date": { "id": "PVTF_lADODHMhOM4Bb_TmzhWrcVw", "type": "DATE" }
+    }
+  },
+  "monday": {
+    "subitems_board_id": 18394803683,
+    "columns": {
+      "status":    "color_mkzhf98w",
+      "owner":     "person",
+      "estimate":  "numeric_mkzeves4",
+      "daterange": "timerange_mkzh5cha"
+    },
+    "status_map": {
+      "Backlog":     "Not Started",
+      "Ready":       "Not Started",
+      "In progress": "Working on it",
+      "In review":   "Working on it",
+      "Done":        "Complete"
+    },
+    "users": {
+      "ashiqul-abi":      80239001,
+      "dilinaabi":        61277079,
+      "Ksomjee":          98251442,
+      "MauricioDuqueABI": 98252629
+    }
+  }
+}
