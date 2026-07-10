@@ -3705,7 +3705,7 @@
         "scope":  "Katana"
     },
     {
-        "num":  244,
+        "num":  248,
         "title":  "Purchasing program for combining multiple work order pdfs",
         "description":  "Create a executable program or web application for Purchasing",
         "assignee":  "ashiqul-abi",
@@ -4063,5 +4063,20 @@
         "labels":  "BDF Feedback",
         "notes":  "",
         "scope":  ""
+    },
+    {
+        "num":  272,
+        "title":  "Gonnella EyeQ commisioning",
+        "description":  "Installation and gonnella EyeQ commisioning",
+        "assignee":  "MauricioDuqueABI",
+        "status":  "Backlog",
+        "priority":  "High",
+        "size":  "",
+        "estimate":  null,
+        "start_date":  "2026-07-23",
+        "target_date":  "2026-07-17",
+        "labels":  "",
+        "notes":  "",
+        "scope":  "Eye-Q"
     }
 ]
