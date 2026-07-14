@@ -20,13 +20,24 @@ if (Test-Path $source) {
 
 # ─── Step 2: Export Excel → project_data.json ──────────────────────────────────
 Get-Process excel -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
-Start-Sleep -Seconds 1
+Start-Sleep -Seconds 2
 
 $excel = New-Object -ComObject Excel.Application
 $excel.Visible = $false
 $excel.DisplayAlerts = $false
-$wb    = $excel.Workbooks.Open($excelPath)
-$sheet = $wb.Sheets | Where-Object { $_.Name -eq "KII Tasks" }
+$excel.AutomationSecurity = 3  # disable macro warnings that block COM calls
+$wb    = $excel.Workbooks.Open($excelPath, 0, $true, 5, "", "", $true, 2, "", $false, $false, 0, $false, $false, 0)
+Start-Sleep -Seconds 3  # wait for workbook to fully load before enumerating sheets
+
+$sheet = $null
+for ($si = 1; $si -le $wb.Sheets.Count; $si++) {
+    if ($wb.Sheets.Item($si).Name -eq "KII Tasks") { $sheet = $wb.Sheets.Item($si); break }
+}
+if (-not $sheet) {
+    Write-Host "ERROR: Sheet 'KII Tasks' not found."
+    $wb.Close($false); $excel.Quit()
+    exit 1
+}
 
 function ConvertDate($v) {
     if ($null -eq $v -or "$v".Trim() -eq "") { return "" }
@@ -36,11 +47,11 @@ function ConvertDate($v) {
     return "$v".Trim()
 }
 
+$lastRow = $sheet.UsedRange.Rows.Count
 $tasks = @()
-$row = 2
-while ($true) {
+for ($row = 2; $row -le $lastRow; $row++) {
     $numVal = $sheet.Cells.Item($row, 1).Value2
-    if ($null -eq $numVal) { break }
+    if ($null -eq $numVal -or "$numVal" -eq "") { continue }
 
     $estVal = $sheet.Cells.Item($row, 8).Value2
 
@@ -59,7 +70,6 @@ while ($true) {
         notes       = "$($sheet.Cells.Item($row, 12).Value2)".Trim()
         scope       = "$($sheet.Cells.Item($row, 13).Value2)".Trim()
     }
-    $row++
 }
 
 $wb.Close($false)
