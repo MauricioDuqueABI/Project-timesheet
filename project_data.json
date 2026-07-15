@@ -211,7 +211,7 @@
     },
     {
         "num":  247,
-        "title":  "Redstone Scoring Camera Flickering ",
+        "title":  "Redstone Scoring Camera Flickering",
         "description":  "Dignose laser flickering, switch from encoder base to time base and detect if the laser became solid, if so, swap the encoder.",
         "assignee":  "MauricioDuqueABI",
         "status":  "Done",
@@ -3902,7 +3902,7 @@
     {
         "num":  261,
         "title":  "Recipe page",
-        "description":  "Loading a new recipe takes time to load, during this period it should show a loading spinner. ",
+        "description":  "Loading a new recipe takes time to load, during this period it should show a loading spinner.",
         "assignee":  "dilinaabi",
         "status":  "",
         "priority":  "High",
@@ -3947,7 +3947,7 @@
     {
         "num":  264,
         "title":  "Phantom Folder Image Saving",
-        "description":  " Create a new setting that, when enabled, saves images into \"phantom folders\" named after the recipe. This feature could also be configured to separate each run based on time.",
+        "description":  "Create a new setting that, when enabled, saves images into \"phantom folders\" named after the recipe. This feature could also be configured to separate each run based on time.",
         "assignee":  "dilinaabi",
         "status":  "In review",
         "priority":  "Medium",
@@ -4022,7 +4022,7 @@
     {
         "num":  269,
         "title":  "BDF SCADA Integration / Export Feature",
-        "description":  " Explore the possibility of connecting with the BDF SCADA system to push production page data for internal continuous improvement. At least, look into adding a dedicated export button to allow manual extraction of production data. Check with JM and Raphael",
+        "description":  "Explore the possibility of connecting with the BDF SCADA system to push production page data for internal continuous improvement. At least, look into adding a dedicated export button to allow manual extraction of production data. Check with JM and Raphael",
         "assignee":  "",
         "status":  "",
         "priority":  "High",
@@ -4052,7 +4052,7 @@
     {
         "num":  271,
         "title":  "Found miss cuts with same dristribution logic but two different recipes",
-        "description":  "JM and Carlee reported there were miss cuts because of the distribution issues on one of the systems after customer changed some product positions. ",
+        "description":  "JM and Carlee reported there were miss cuts because of the distribution issues on one of the systems after customer changed some product positions.",
         "assignee":  "",
         "status":  "",
         "priority":  "High",
@@ -4067,9 +4067,9 @@
     {
         "num":  272,
         "title":  "Gonnella EyeQ commisioning",
-        "description":  "Installation and gonnella EyeQ commisioning ",
+        "description":  "Installation and gonnella EyeQ commisioning",
         "assignee":  "MauricioDuqueABI",
-        "status":  "Backlog",
+        "status":  "Done",
         "priority":  "High",
         "size":  "",
         "estimate":  null,
@@ -4078,5 +4078,65 @@
         "labels":  "",
         "notes":  "",
         "scope":  "Eye-Q"
+    },
+    {
+        "num":  273,
+        "title":  "Gonnella EyeQ flip position 180 Deg, and recalibration",
+        "description":  "Reposisioning the full EyeQ flipping it up 180 Deg",
+        "assignee":  "MauricioDuqueABI",
+        "status":  "In progress",
+        "priority":  "High",
+        "size":  "",
+        "estimate":  4,
+        "start_date":  "2026-07-16",
+        "target_date":  "2026-07-16",
+        "labels":  "",
+        "notes":  "",
+        "scope":  "Eye-Q"
+    },
+    {
+        "num":  274,
+        "title":  "OPC KII demo room",
+        "description":  "Enable OPC-Client in Katana side and connect with OPC-Server in the PLC",
+        "assignee":  "ashiqul-abi",
+        "status":  "Backlog",
+        "priority":  "High",
+        "size":  "",
+        "estimate":  null,
+        "start_date":  "2026-07-16",
+        "target_date":  "2026-07-18",
+        "labels":  "",
+        "notes":  "",
+        "scope":  "Katana"
+    },
+    {
+        "num":  275,
+        "title":  "Timeline Source true change",
+        "description":  "Change the source true from the excel file to github project",
+        "assignee":  "MauricioDuqueABI",
+        "status":  "Done",
+        "priority":  "High",
+        "size":  "",
+        "estimate":  1,
+        "start_date":  "2026-07-15",
+        "target_date":  "2026-07-15",
+        "labels":  "",
+        "notes":  "",
+        "scope":  ""
+    },
+    {
+        "num":  276,
+        "title":  "Update the Software Share point Landing",
+        "description":  "Update the information in the software share point",
+        "assignee":  "MauricioDuqueABI",
+        "status":  "Backlog",
+        "priority":  "Low",
+        "size":  "",
+        "estimate":  3,
+        "start_date":  "2026-07-15",
+        "target_date":  "2026-07-18",
+        "labels":  "",
+        "notes":  "",
+        "scope":  ""
     }
 ]
