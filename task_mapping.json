@@ -1,4 +1,4 @@
-﻿{
+{
     "1":  {
               "github_item_id":  "PVTI_lADODHMhOM4Bb_TmzgxMyzU",
               "monday_item_id":  "12410135890"
@@ -1102,5 +1102,13 @@
     "276":  {
                 "github_item_id":  "PVTI_lADODHMhOM4Bb_Tmzgy97Yk",
                 "monday_item_id":  "12544701334"
+            },
+    "277":  {
+                "github_item_id":  "PVTI_lADODHMhOM4Bb_TmzgzM6Rk",
+                "monday_item_id":  "12577764828"
+            },
+    "278":  {
+                "github_item_id":  "PVTI_lADODHMhOM4Bb_TmzgzM6y8",
+                "monday_item_id":  "12577764874"
             }
 }
