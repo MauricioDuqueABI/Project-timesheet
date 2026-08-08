@@ -5683,5 +5683,20 @@
         "labels":  "",
         "notes":  "",
         "scope":  ""
+    },
+    {
+        "num":  380,
+        "title":  "Test AI core reconciliation",
+        "description":  "",
+        "assignee":  "ThongHHuynhh",
+        "status":  "Backlog",
+        "priority":  "",
+        "size":  "",
+        "estimate":  "",
+        "start_date":  "",
+        "target_date":  "",
+        "labels":  "",
+        "notes":  "",
+        "scope":  ""
     }
 ]
