@@ -6253,5 +6253,50 @@
         "scope":  "Eye-Q",
         "priority":  "Low",
         "notes":  ""
+    },
+    {
+        "num":  418,
+        "title":  "Add labeling tool - EyeQ",
+        "description":  "",
+        "assignee":  "ThongHHuynhh",
+        "status":  "Backlog",
+        "priority":  "Medium",
+        "size":  "",
+        "estimate":  null,
+        "start_date":  "",
+        "target_date":  "",
+        "labels":  "",
+        "notes":  "",
+        "scope":  ""
+    },
+    {
+        "num":  419,
+        "title":  "Add steps for detection - EyeQ",
+        "description":  "",
+        "assignee":  "ThongHHuynhh",
+        "status":  "Backlog",
+        "priority":  "Medium",
+        "size":  "",
+        "estimate":  null,
+        "start_date":  "",
+        "target_date":  "",
+        "labels":  "",
+        "notes":  "",
+        "scope":  ""
+    },
+    {
+        "num":  420,
+        "title":  "Auto-trigger calibration -EyeQ",
+        "description":  "",
+        "assignee":  "ThongHHuynhh",
+        "status":  "Backlog",
+        "priority":  "Medium",
+        "size":  "",
+        "estimate":  null,
+        "start_date":  "",
+        "target_date":  "",
+        "labels":  "",
+        "notes":  "",
+        "scope":  ""
     }
 ]
