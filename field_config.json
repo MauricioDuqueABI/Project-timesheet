@@ -26,6 +26,16 @@
           "XL": "db339eb2"
         }
       },
+      "scope": {
+        "id": "PVTSSF_lADODHMhOM4Bb_TmzhWs0I0",
+        "type": "SINGLE_SELECT",
+        "options": {
+          "Eye-Q":   "7748865f",
+          "Katana":  "66a4d288",
+          "Unity":   "07fe38cd",
+          "Capstone":"3d41d2d2"
+        }
+      },
       "estimate":    { "id": "PVTF_lADODHMhOM4Bb_TmzhWrcVo", "type": "NUMBER" },
       "start_date":  { "id": "PVTF_lADODHMhOM4Bb_TmzhWrcVs", "type": "DATE" },
       "target_date": { "id": "PVTF_lADODHMhOM4Bb_TmzhWrcVw", "type": "DATE" }
