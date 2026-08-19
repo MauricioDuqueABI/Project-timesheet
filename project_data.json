@@ -4077,7 +4077,7 @@
         "target_date":  "",
         "labels":  "[katana],[minor],BDF,bdf-mandatory,Issue",
         "notes":  "Tested the IPC after updating the bios, ran 3 phantom of 30min, no sign of lagging or getting slow",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  292,
@@ -4107,7 +4107,7 @@
         "target_date":  "",
         "labels":  "bug,BDF,Distribution Issues,bdf-mandatory",
         "notes":  "worked well with JM\u0027s logic",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  294,
@@ -4122,7 +4122,7 @@
         "target_date":  "",
         "labels":  "bug,BDF,Distribution Issues,KII,bdf-mandatory",
         "notes":  "Created a new distribution according to JM\u0027s logic and multiple phantom runs proved its evenly distributing the products to robots",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  295,
@@ -4137,7 +4137,7 @@
         "target_date":  "",
         "labels":  "BDF,Distribution Issues,Feature,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  296,
@@ -4152,7 +4152,7 @@
         "target_date":  "",
         "labels":  "bug,BDF,Distribution Issues,KII",
         "notes":  "Consolidation needs time and resources and testing on all the different types of robot cells ABI has to this task will be able to complete during BDF timeline",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  297,
@@ -4167,7 +4167,7 @@
         "target_date":  "",
         "labels":  "BDF,Following the Height",
         "notes":  "Validated the Katana side and the robot side cut points are accurate +/- 3mm",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  298,
@@ -4182,7 +4182,7 @@
         "target_date":  "",
         "labels":  "BDF,Following the Height,Feature,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  299,
@@ -4197,7 +4197,7 @@
         "target_date":  "",
         "labels":  "BDF,Following the Height,Feature,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  300,
@@ -4212,14 +4212,14 @@
         "target_date":  "",
         "labels":  "BDF,Following the Height,Feature,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  301,
         "title":  "User Actions History: Remove null records (bug)",
         "description":  "Remove the null records - bug on the User Actions History page.  **Priority:** High **Status:** Not Started",
         "assignee":  "dilinaabi",
-        "status":  "In review",
+        "status":  "Done",
         "priority":  "Medium",
         "size":  "",
         "estimate":  "",
@@ -4227,22 +4227,22 @@
         "target_date":  "",
         "labels":  "bug,BDF,User Actions History,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  302,
         "title":  "User Actions History: Fix scrolling and pagination",
         "description":  "Scrolling and pagination both exist on this page but need to be fixed.  **Priority:** High **Status:** Not Started",
         "assignee":  "dilinaabi",
-        "status":  "In review",
+        "status":  "Done",
         "priority":  "High",
         "size":  "",
         "estimate":  "1",
         "start_date":  "",
-        "target_date":  "",
+        "target_date":  "2026-08-04",
         "labels":  "bug,BDF,User Actions History,KII,bdf-mandatory",
         "notes":  "Scroll should be removed for the user pages, Katana shouldn\u0027t have any scroll page, except information ie. manual user",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  303,
@@ -4257,7 +4257,7 @@
         "target_date":  "",
         "labels":  "BDF,User Actions History,Feature,KII",
         "notes":  "Review the UI",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  304,
@@ -4269,10 +4269,10 @@
         "size":  "",
         "estimate":  "1",
         "start_date":  "",
-        "target_date":  "",
+        "target_date":  "2026-07-31",
         "labels":  "bug,BDF,System Settings,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  305,
@@ -4287,14 +4287,14 @@
         "target_date":  "",
         "labels":  "bug,BDF,Calibration Offset,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  306,
         "title":  "Calibration Offset: Add increment fields",
         "description":  "Add increment fields to the Calibration Offset page.  **Priority:** Medium **Status:** Not Started",
         "assignee":  "dilinaabi",
-        "status":  "In review",
+        "status":  "Done",
         "priority":  "Medium",
         "size":  "",
         "estimate":  "2",
@@ -4302,7 +4302,7 @@
         "target_date":  "",
         "labels":  "bug,BDF,Calibration Offset,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  307,
@@ -4317,7 +4317,7 @@
         "target_date":  "",
         "labels":  "BDF,Calibration Offset,Feature,KII",
         "notes":  "come up with a plan for this",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  308,
@@ -4332,7 +4332,7 @@
         "target_date":  "",
         "labels":  "BDF,Calibration Offset,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  309,
@@ -4347,7 +4347,7 @@
         "target_date":  "",
         "labels":  "bug,BDF,Language,Feature,KII,bdf-mandatory",
         "notes":  "Need to fix the bug, also should be in English and Spanish only",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  310,
@@ -4362,7 +4362,7 @@
         "target_date":  "",
         "labels":  "bug,BDF,Recipe Assistant,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  311,
@@ -4377,7 +4377,7 @@
         "target_date":  "",
         "labels":  "BDF,Control the Line Settings",
         "notes":  "On hold, pending review",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  312,
@@ -4392,7 +4392,7 @@
         "target_date":  "",
         "labels":  "BDF,Control the Line Settings,Feature",
         "notes":  "On hold, pending review || 2026-08-14 KH is working on it",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  313,
@@ -4407,14 +4407,14 @@
         "target_date":  "",
         "labels":  "bug,BDF,Robot Card Status,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  314,
         "title":  "Robot Card Status: Make robot status clearer on the card",
         "description":  "Make the robot status clearer - add a border, enlarge the left sidebar, or move the robot number to the top of the card and have the colored top bar show status.  **Priority:** Medium **Status:** Not Started",
         "assignee":  "dilinaabi",
-        "status":  "In review",
+        "status":  "Done",
         "priority":  "Medium",
         "size":  "",
         "estimate":  "10",
@@ -4422,29 +4422,29 @@
         "target_date":  "",
         "labels":  "bug,BDF,Robot Card Status,Feature,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  315,
         "title":  "Startup: Katana always shows running while starting up - creates confusion",
         "description":  "Katana currently starts cameras first, then robots. While starting up, Katana always shows \u0027running\u0027 - this creates confusion.  **Priority:** Medium **Status:** Not Started",
         "assignee":  "dilinaabi",
-        "status":  "In review",
+        "status":  "Done",
         "priority":  "High",
         "size":  "",
         "estimate":  "6",
         "start_date":  "",
-        "target_date":  "",
+        "target_date":  "2026-08-07",
         "labels":  "bug,BDF,Startup \u0026 Robot States,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  316,
         "title":  "Startup: Each robot should clearly display its state",
         "description":  "Each robot should clearly display its state: starting, running, stuck in dip and clean, or stopped.  **Priority:** Medium **Status:** Not Started",
         "assignee":  "dilinaabi,Ksomjee",
-        "status":  "In progress",
+        "status":  "In review",
         "priority":  "Medium",
         "size":  "",
         "estimate":  "",
@@ -4452,14 +4452,14 @@
         "target_date":  "",
         "labels":  "BDF,Startup \u0026 Robot States,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  317,
         "title":  "General UI/UX: Add limits to all fields",
         "description":  "Add limits to all fields across the UI.  **Priority:** Medium **Status:** Not Started",
         "assignee":  "dilinaabi",
-        "status":  "In review",
+        "status":  "Done",
         "priority":  "Medium",
         "size":  "",
         "estimate":  "3",
@@ -4467,7 +4467,7 @@
         "target_date":  "",
         "labels":  "bug,BDF,General UI/UX,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  318,
@@ -4482,7 +4482,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  319,
@@ -4497,7 +4497,7 @@
         "target_date":  "",
         "labels":  "bug,BDF,General UI/UX,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  320,
@@ -4512,7 +4512,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Cleaning",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  321,
@@ -4527,14 +4527,14 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Typo,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  322,
         "title":  "General UI/UX: Katana launcher and Katana icon look too similar",
         "description":  "The Katana launcher and Katana icon look too similar, causing confusion. While Katana is launching, backup/restore should be available from the launcher; once Katana is open, backup/restore should only be available within Katana.  **Priority:** Medium **Status:** Not Started",
         "assignee":  "dilinaabi",
-        "status":  "In review",
+        "status":  "Done",
         "priority":  "High",
         "size":  "",
         "estimate":  "",
@@ -4542,7 +4542,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Cleaning,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  323,
@@ -4557,7 +4557,7 @@
         "target_date":  "",
         "labels":  "bug,BDF,General UI/UX,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  324,
@@ -4572,7 +4572,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Cleaning,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  325,
@@ -4587,7 +4587,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  326,
@@ -4602,22 +4602,22 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  327,
         "title":  "General UI/UX: Hide the maximize icon in webview",
         "description":  "Hide the maximize icon in webview.  **Priority:** Medium **Status:** Not Started",
         "assignee":  "dilinaabi",
-        "status":  "In review",
+        "status":  "Done",
         "priority":  "Medium",
         "size":  "",
         "estimate":  "2",
         "start_date":  "",
-        "target_date":  "",
+        "target_date":  "2026-07-31",
         "labels":  "bug,BDF,General UI/UX,KII,bdf-mandatory",
         "notes":  "Just hide it",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  328,
@@ -4632,7 +4632,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  329,
@@ -4647,14 +4647,14 @@
         "target_date":  "",
         "labels":  "bug,BDF,General UI/UX,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  330,
         "title":  "General UI/UX: Reorganize Recipe Assistant - move Advanced Settings to the end",
         "description":  "Reorganize the Recipe Assistant; move the \u0027Advanced Settings\u0027 button to the end.  **Assigned To:** Ashiqul **Priority:** Medium **Status:** In Progress",
         "assignee":  "dilinaabi",
-        "status":  "In review",
+        "status":  "Done",
         "priority":  "Medium",
         "size":  "",
         "estimate":  "",
@@ -4662,14 +4662,14 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Typo,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  331,
         "title":  "General UI/UX: Hide height checks and buttons based on XML settings",
         "description":  "Hide height checks and other buttons based on XML settings, similar to WPF.  **Priority:** Medium **Status:** Not Started",
         "assignee":  "dilinaabi",
-        "status":  "In review",
+        "status":  "Done",
         "priority":  "Medium",
         "size":  "",
         "estimate":  "10",
@@ -4677,7 +4677,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  332,
@@ -4692,7 +4692,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  333,
@@ -4707,7 +4707,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Feature,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  334,
@@ -4722,7 +4722,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Feature,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  335,
@@ -4737,7 +4737,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Feature,KII",
         "notes":  "Pending to review",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  336,
@@ -4752,7 +4752,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  337,
@@ -4767,7 +4767,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Feature,KII",
         "notes":  "Include deep tank cycles recipe dependant, request Controls. Ask current status of this.",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  338,
@@ -4779,17 +4779,17 @@
         "size":  "",
         "estimate":  "2",
         "start_date":  "",
-        "target_date":  "",
+        "target_date":  "2026-07-31",
         "labels":  "bug,BDF,General UI/UX,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  339,
         "title":  "General UI/UX: Keep documentation up to date and add search",
         "description":  "Keep documentation up to date and add search functionality.  **Priority:** Medium **Status:** Not Started",
         "assignee":  "MauricioDuqueABI",
-        "status":  "In progress",
+        "status":  "Done",
         "priority":  "Medium",
         "size":  "",
         "estimate":  "4",
@@ -4797,7 +4797,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,KII,bdf-mandatory",
         "notes":  "DG - I started fixing the layouts and search, all the content should be in .md files and the system will auto generate the layout for it. But someone has to generate the correct up to date documentation for this",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  340,
@@ -4812,7 +4812,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  341,
@@ -4827,7 +4827,7 @@
         "target_date":  "",
         "labels":  "BDF,General UI/UX",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  342,
@@ -4842,7 +4842,7 @@
         "target_date":  "",
         "labels":  "BDF,User Management",
         "notes":  "Ask Controls for make this",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  343,
@@ -4857,7 +4857,7 @@
         "target_date":  "",
         "labels":  "BDF,User Management,Feature,KII",
         "notes":  "Export is complete, waiting for controls to finalize the settings",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  344,
@@ -4872,14 +4872,14 @@
         "target_date":  "",
         "labels":  "BDF,Custom Cut Mode,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  345,
         "title":  "Custom Cut Mode: Not touch-friendly - optimize for touch",
         "description":  "Custom Cut Mode is not touch-friendly; optimize for touch.  **Priority:** Medium **Status:** Not Started",
         "assignee":  "dilinaabi",
-        "status":  "Backlog",
+        "status":  "In progress",
         "priority":  "Medium",
         "size":  "",
         "estimate":  "",
@@ -4887,7 +4887,7 @@
         "target_date":  "",
         "labels":  "BDF,Custom Cut Mode",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  346,
@@ -4902,7 +4902,7 @@
         "target_date":  "",
         "labels":  "BDF,Custom Cut Mode,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  347,
@@ -4917,7 +4917,7 @@
         "target_date":  "",
         "labels":  "BDF,Settings Menu,Feature,KII",
         "notes":  "Split client access vs ABI",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  348,
@@ -4932,7 +4932,7 @@
         "target_date":  "",
         "labels":  "BDF,Settings Menu,Cleaning,KII,bdf-mandatory",
         "notes":  "be more specific",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  349,
@@ -4947,7 +4947,7 @@
         "target_date":  "",
         "labels":  "bug,BDF,Engineering Settings,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  350,
@@ -4962,7 +4962,7 @@
         "target_date":  "",
         "labels":  "BDF,Engineering Settings,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  351,
@@ -4977,7 +4977,7 @@
         "target_date":  "",
         "labels":  "BDF,Engineering Settings,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  352,
@@ -4992,7 +4992,7 @@
         "target_date":  "",
         "labels":  "BDF,Engineering Settings,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  353,
@@ -5007,22 +5007,22 @@
         "target_date":  "",
         "labels":  "BDF,Engineering Settings,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  354,
         "title":  "Home Preview: Popup z-index too high relative to the layer panel",
         "description":  "Popup z-index is too high relative to the layer panel on the Home Preview page.  **Priority:** Medium **Status:** Not Started",
         "assignee":  "dilinaabi",
-        "status":  "In review",
+        "status":  "Done",
         "priority":  "Medium",
         "size":  "",
         "estimate":  "2",
         "start_date":  "",
-        "target_date":  "",
+        "target_date":  "2026-08-07",
         "labels":  "bug,BDF,Home Preview,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  355,
@@ -5037,7 +5037,7 @@
         "target_date":  "",
         "labels":  "BDF,Home Preview,Feature,KII",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  356,
@@ -5052,7 +5052,7 @@
         "target_date":  "",
         "labels":  "bug,BDF,Encoder Calibration,Feature,KII,bdf-mandatory",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  357,
@@ -5067,7 +5067,7 @@
         "target_date":  "",
         "labels":  "BDF,Encoder Calibration",
         "notes":  "",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  358,
@@ -5082,7 +5082,7 @@
         "target_date":  "",
         "labels":  "BDF,Encoder Calibration,Feature,KII",
         "notes":  "This is already in the 40 item",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  359,
@@ -5097,7 +5097,7 @@
         "target_date":  "",
         "labels":  "BDF,Install IPC,bdf-mandatory,Installation",
         "notes":  "Beckoff IPC reaches \u003e4 GHZ speed; tested with phantom mode and production mode, IPC performe well",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  360,
@@ -5184,10 +5184,10 @@
         "size":  "",
         "estimate":  "20",
         "start_date":  "",
-        "target_date":  "",
+        "target_date":  "2026-08-04",
         "labels":  "BDF,General UI/UX,Feature",
         "notes":  "Require Controls || 2026-08-14 KH is working on it",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  366,
@@ -5202,7 +5202,7 @@
         "target_date":  "",
         "labels":  "General UI/UX,Feature,KII",
         "notes":  "no show",
-        "scope":  ""
+        "scope":  "Katana"
     },
     {
         "num":  367,
@@ -6624,7 +6624,7 @@
         "size":  "",
         "estimate":  "1",
         "start_date":  "",
-        "target_date":  "",
+        "target_date":  "2026-07-31",
         "labels":  "bug",
         "notes":  "",
         "scope":  "Katana"
@@ -6634,7 +6634,7 @@
         "title":  "General UI/UX: Create ABI account under Super Admin",
         "description":  "Add the ability to create an ABI-owned account within the Super Admin interface.",
         "assignee":  "dilinaabi",
-        "status":  "In review",
+        "status":  "Done",
         "priority":  "Low",
         "size":  "",
         "estimate":  "",
