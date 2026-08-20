@@ -7543,5 +7543,20 @@
         "labels":  "",
         "notes":  "Git commit b699b85f.",
         "scope":  "Eye-Q"
+    },
+    {
+        "num":  523,
+        "title":  "Test IPC last BIOS upgrade with Backoff team",
+        "description":  "Test the Beckoff IPC after the last BIOS upgrade with the Backoff team.",
+        "assignee":  "MauricioDuqueABI,dilinaabi",
+        "status":  "Done",
+        "priority":  "High",
+        "size":  "",
+        "estimate":  "2",
+        "start_date":  "",
+        "target_date":  "",
+        "labels":  "Issue",
+        "notes":  "Beckoff IPC reaches \u003e4 GHz speed; tested with phantom mode and production mode, IPC performs well.",
+        "scope":  "Katana"
     }
 ]
