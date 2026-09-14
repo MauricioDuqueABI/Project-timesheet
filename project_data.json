@@ -9013,5 +9013,31 @@
         "labels":  "",
         "notes":  "",
         "scope":  "Eye-Q"
+    },
+    {
+        "num":  621,
+        "title":  "Safety / PLC Error Handling: door-open emergency error not shown in Katana",
+        "description":  "I opened the door; PLC was in Emergency error, but Katana was not showing any error. DG - I added this, I noticed this happening on the cell.",
+        "assignee":  "",
+        "status":  "Backlog",
+        "priority":  "Critical",
+        "estimate":  4,
+        "start_date":  "",
+        "target_date":  "",
+        "scope":  "Katana",
+        "labels":  "bug"
+    },
+    {
+        "num":  622,
+        "title":  "Page freeze during phantom mode and on entering calibration offsets page",
+        "description":  "Page froze while phantom mode was running. After refreshing it started working, but got stuck again after going into the calibration offsets page.",
+        "assignee":  "",
+        "status":  "In review",
+        "priority":  "Medium",
+        "estimate":  4,
+        "start_date":  "",
+        "target_date":  "",
+        "scope":  "Katana",
+        "labels":  "bug"
     }
 ]
